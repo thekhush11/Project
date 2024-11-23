@@ -1,0 +1,135 @@
+
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Header Styles */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        text-align: center;
+        margin-bottom: 0;
+      }
+      
+      nav {
+        text-align: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      nav li {
+        display: inline-block;
+        margin: 0 10px; /* Add spacing between list items */
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: inherit; /* Inherit white color from header */
+      }
+      
+      /* Hero Section Styles */
+      .hero {
+        position: relative; /* Allows hero content to be positioned on top of background image */
+        min-height: 500px; /* Set minimum height for hero section */
+        background-color: #ddd; /* Fallback color if image fails to load */
+      }
+      
+      .hero-image {
+        width: 100%; /* Stretch image to cover full width */
+        height: 100%; /* Stretch image to cover full height */
+        object-fit: cover; /* Ensure image fills container while maintaining aspect ratio */
+        opacity: 0.7; /* Reduce image opacity slightly */
+      }
+      
+      .hero-content {
+        position: absolute; /* Position content on top of image */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center content horizontally and vertically */
+        text-align: center;
+        color: #fff;
+      }
+      
+      .hero-content h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      
+      .hero-content a {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        text-transform: uppercase; /* Convert text to uppercase for a stronger call to action */
+      }
+      
+      /* Destinations Section Styles */
+      .destinations {
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .destination {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+      }
+      
+      .destination img {
+        width: 250px;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      
+      /* Call to Action Section Styles */
+      .call-to-action {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .call-to-action h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      
+      .call-to-action a {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
